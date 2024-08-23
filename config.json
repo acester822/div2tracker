@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "mysql-tracker-api",
+    "user": "dth-api",
+    "password": "dth-api",
+    "database": "dth-api"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 204
+  },
+  "rate-limiting": {
+    "requests_per_minute": 60
+  }
+}
