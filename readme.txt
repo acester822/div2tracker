@@ -16,3 +16,10 @@ head over to localhost:105/api/help to check the available endpoints
 Use postman to send data to the api and to check error mappins
 
 api key: JaRyk3ys4fVZrwHzMAba
+
+curl -X POST http://localhost:105/api/query-data \
+     -d '{
+       "api_key": "JaRyk3ys4fVZrwHzMAba",
+       "username": "Adrenaline23",
+       "platform": "uplay"
+     }'

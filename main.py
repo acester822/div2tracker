@@ -24,7 +24,7 @@ def home():
         json.dumps(
             {
                 'status': True,
-                'message': 'Welcome! This is the Division2 API built by alexanderdth. Reffer to /api/help, to learn how to use the api.'
+                'message': 'Welcome! This is the Division2 API built by Ace911x. Refer to /api/help, to learn how to use the api.'
             }),
         status=200,
         mimetype='application/json')
